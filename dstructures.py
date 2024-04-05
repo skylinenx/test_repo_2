@@ -27,3 +27,13 @@ s.remove(30)
 print(s)    #{10, 20}
 
 #dict
+owner_car = {
+    "Nisal": "Civic",
+    "Sandy": "Alto",
+    "Thara": "Corolla"
+}
+print(owner_car) #{'Nisal': 'Civic', 'Sandy': 'Alto', 'Thara': 'Corolla'}
+print(owner_car["Sandy"]) #Alto
+
+#add new pairs
+owner_car["Mittens"] = "4 legs"
